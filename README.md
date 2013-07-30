@@ -1,6 +1,12 @@
 # NumericClip
 
-TODO: Write a gem description
+This gem provide `Numeric#clip(lower, upper)` method.
+
+```ruby
+3.clip(1, 9) # => 3
+3.clip(1, 2) # => 2
+3.clip(0, 1) # => 1
+```
 
 ## Installation
 
@@ -15,10 +21,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install numeric_clip
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
