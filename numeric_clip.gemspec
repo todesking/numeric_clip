@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["discommunicative@gmail.com"]
   spec.description   = %q{Provides Numeric#clip}
   spec.summary       = %q{Provides Numeric#clip}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/todesking/numeric_clip"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
